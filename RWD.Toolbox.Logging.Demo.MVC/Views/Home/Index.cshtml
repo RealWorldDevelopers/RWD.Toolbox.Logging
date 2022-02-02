@@ -1,0 +1,16 @@
+﻿
+@model WeatherForecasts
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Serilog Demo Project</h1>
+   @foreach (var item in Model.Forecasts)
+   {
+      <div>@item.Date</div>
+      <div>@item.TemperatureF (@item.TemperatureC)</div>
+      <div>@item.Summary</div>
+   }
+
+</div>
