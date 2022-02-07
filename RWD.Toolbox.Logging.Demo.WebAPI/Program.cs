@@ -7,17 +7,19 @@ using System.Reflection;
 using Serilog.Events;
 using Serilog.Formatting.Compact;
 using Serilog.Enrichers.AspnetcoreHttpcontext;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace RWD.Toolbox.Logging.Demo.WebAPI
 {
    public static class Program
    {
       // TODO use app settings
-      //private static IConfiguration Configuration { get; } = new ConfigurationBuilder()
-      //     .SetBasePath(Directory.GetCurrentDirectory())
-      //     .AddJsonFile("appSettings.json", optional: false, reloadOnChange: true)
-      //     .AddEnvironmentVariables()
-      //     .Build();
+      private static IConfiguration Configuration { get; } = new ConfigurationBuilder()
+           .SetBasePath(Directory.GetCurrentDirectory())
+           .AddJsonFile("appSettings.json", optional: false, reloadOnChange: true)
+           .AddEnvironmentVariables()
+           .Build();
 
       // Add Product and Layer options to ILogger
 
@@ -25,17 +27,17 @@ namespace RWD.Toolbox.Logging.Demo.WebAPI
       {
          var name = Assembly.GetExecutingAssembly().GetName();
          Log.Logger = new LoggerConfiguration()
-         //.ReadFrom.Configuration(Configuration)
-         .MinimumLevel.Debug() // default is information
-         .MinimumLevel.Override("Microsoft", LogEventLevel.Debug)
-         .Enrich.FromLogContext()
-         .Enrich.WithExceptionDetails()
-         .Enrich.WithMachineName()
-         .Enrich.WithEnvironmentName()
-         .Enrich.WithEnvironmentUserName()
+         .ReadFrom.Configuration(Configuration)
+         //.MinimumLevel.Debug() // default is information
+         //.MinimumLevel.Override("Microsoft", LogEventLevel.Debug)
+         //.Enrich.FromLogContext()
+         //.Enrich.WithExceptionDetails()
+         //.Enrich.WithMachineName()
+         //.Enrich.WithEnvironmentName()
+         //.Enrich.WithEnvironmentUserName()
          .Enrich.WithProperty("Assembly", $"{name.Name}")
          .Enrich.WithProperty("Version", $"{name.Version}")
-         .WriteTo.File(new RenderedCompactJsonFormatter(), @"E:\Testing\error.json", shared: true)
+         //.WriteTo.File(new RenderedCompactJsonFormatter(), @"E:\Testing\error.json", shared: true)
          //.WriteTo.MSSqlServer(connectionString: AppSettings.ConnString,
          //   sinkOptions: new MSSqlServerSinkOptions { TableName = "Log_Error", AutoCreateSqlTable = true, BatchPostingLimit = 1 },
          //   columnOptions: Logger.GetSqlColumnOptions())
@@ -68,26 +70,25 @@ namespace RWD.Toolbox.Logging.Demo.WebAPI
                  .UseSerilog((provider, context, loggerConfig) =>
                   {
                      // TODO cause a error needs figured out
-                     // Serilog.Debugging.SelfLog.Enable(msg => File.AppendAllText(@"E:\testing\serilog.txt", msg + Environment.NewLine));
+                     Serilog.Debugging.SelfLog.Enable(msg => File.AppendAllText(@"E:\testing\serilog.txt", msg + Environment.NewLine));
 
                      var name = Assembly.GetExecutingAssembly().GetName();
                      loggerConfig
-                     //.ReadFrom.Configuration(Configuration)
-                        .MinimumLevel.Debug()
-                        .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
-                         
-                         .Enrich.WithAspnetcoreHttpcontext(provider)
-                         .Enrich.FromLogContext()
-                         .Enrich.WithExceptionDetails()
-                         .Enrich.WithMachineName()
-                         .Enrich.WithEnvironmentName()
-                         .Enrich.WithEnvironmentUserName()
-                         .Enrich.WithProperty("Assembly", $"{name.Name}")
-                         .Enrich.WithProperty("Version", $"{name.Version}")
-                         .WriteTo.File(new RenderedCompactJsonFormatter(), @"E:\Testing\error.json", shared: true);
-                     //.WriteTo.MSSqlServer(connectionString: AppSettings.ConnString,
-                     //    sinkOptions: new MSSqlServerSinkOptions { TableName = "Log_Error", AutoCreateSqlTable = true, BatchPostingLimit = 1 },
-                     //    columnOptions: Logger.GetSqlColumnOptions());
+                        .ReadFrom.Configuration(Configuration)
+                        //.MinimumLevel.Debug()
+                        //.MinimumLevel.Override("Microsoft", LogEventLevel.Warning)                         
+                        .Enrich.WithAspnetcoreHttpcontext(provider)
+                        //.Enrich.FromLogContext()
+                        //.Enrich.WithExceptionDetails()
+                        //.Enrich.WithMachineName()
+                        //.Enrich.WithEnvironmentName()
+                        //.Enrich.WithEnvironmentUserName()
+                        .Enrich.WithProperty("Assembly", $"{name.Name}")
+                        .Enrich.WithProperty("Version", $"{name.Version}");
+                        // .WriteTo.File(new RenderedCompactJsonFormatter(), @"E:\Testing\error.json", shared: true);
+                        // .WriteTo.MSSqlServer(connectionString: AppSettings.ConnString,
+                        //    sinkOptions: new MSSqlServerSinkOptions { TableName = "Log_Error", AutoCreateSqlTable = true, BatchPostingLimit = 1 },
+                        //    columnOptions: Logger.GetSqlColumnOptions());
                   });
 
               });

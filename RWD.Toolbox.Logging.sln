@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Logging.Demo.Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Logging.Infrastructure", "RWD.Toolbox.Logging.Infrastructure\RWD.Toolbox.Logging.Infrastructure.csproj", "{69589724-CFD9-4974-B78A-F2B72517210F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RWD.Toolbox.Logging.Demo.Communication", "RWD.Toolbox.Logging.Demo.Communication\RWD.Toolbox.Logging.Demo.Communication.csproj", "{C27C6CD4-2F0B-4FDA-B159-16CA623DAD04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.Logging.Demo.Communication", "RWD.Toolbox.Logging.Demo.Communication\RWD.Toolbox.Logging.Demo.Communication.csproj", "{C27C6CD4-2F0B-4FDA-B159-16CA623DAD04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97B22ECF-3FDC-4BC0-86D4-973E49DD1A6E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
