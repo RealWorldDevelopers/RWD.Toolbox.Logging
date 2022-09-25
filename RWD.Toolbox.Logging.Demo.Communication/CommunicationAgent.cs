@@ -57,7 +57,7 @@ namespace RWD.Toolbox.Logging.Demo.Communication
          return returnObj;
       }
 
-      private HttpClient GetHttpClientWithBearerToken(HttpContext context)
+      private static HttpClient GetHttpClientWithBearerToken(HttpContext context)
       {
          // var token = await context.GetTokenAsync("access_token");
 

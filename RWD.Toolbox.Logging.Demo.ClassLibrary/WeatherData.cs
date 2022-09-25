@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
 
-
 namespace RWD.Toolbox.Logging.Demo.ClassLibrary
 {
    public interface IWeatherData
@@ -22,7 +21,7 @@ namespace RWD.Toolbox.Logging.Demo.ClassLibrary
 
       public string[] GetWeatherValues()
       {
-        // TODO _logger.LogInformation("Inside the WeatherData Library.");
+         _logger.LogInformation("Inside the WeatherData Library.");
          return Summaries;
       }
 

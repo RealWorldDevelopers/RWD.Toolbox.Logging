@@ -1,8 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>RealWorldDevelopers</Authors>
+    <Description>A Free .NET Library to assist with writing logs.</Description>
+    <Copyright>RealWorldDevelopers 2022</Copyright>
+    <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
+    <PackageIcon>RWDevs-NuGet.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.Logging</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>Logging; Performance; Usage; Filter; Attribute; .NET Core</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageLicenseFile>eula.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\eula.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\RWDevs-NuGet.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />

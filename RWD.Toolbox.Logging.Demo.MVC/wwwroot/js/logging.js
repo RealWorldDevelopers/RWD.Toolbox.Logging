@@ -34,7 +34,7 @@ function logError(message, responseMessage, additionalInfo) {
 }
 
 function perfLoggerStart(message, additionalInfo) {
-    //btoa just does base64 encoding
+    // btoa just does base64 encoding
     // add numeric date value?  must return value to caller for lookup in stop
     var sessionKey = btoa(message);    
     sessionStorage[sessionKey] = JSON.stringify(getJsLoggingInfo(message, additionalInfo));
