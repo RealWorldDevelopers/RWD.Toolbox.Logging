@@ -1,3 +1,5 @@
+[![DocFX Build and Publish](https://github.com/RealWorldDevelopers/RWD.Toolbox.Logging/actions/workflows/docfx.yml/badge.svg)](https://github.com/RealWorldDevelopers/RWD.Toolbox.Logging/actions/workflows/docfx.yml)  
+[![pages-build-deployment](https://github.com/RealWorldDevelopers/RWD.Toolbox.Logging/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RealWorldDevelopers/RWD.Toolbox.Logging/actions/workflows/pages/pages-build-deployment)
 
 [Real World Developers](https://www.realworlddevelopers.com)
 -----------------------------
