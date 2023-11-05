@@ -2,10 +2,9 @@
 [Real World Developers](https://www.realworlddevelopers.com)
 -----------------------------
 
-[Documentation](https://realworlddevelopers.github.io/RWD.Toolbox.SMTP/)
+[Documentation](https://realworlddevelopers.github.io/RWD.Toolbox.Logging/)
 -----------------------
 
-[Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.SMTP/)
 ---------------
 
 # RWD.Toolbox.Logging.Infrastructure
