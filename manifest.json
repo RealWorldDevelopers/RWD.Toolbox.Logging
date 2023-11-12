@@ -1,0 +1,554 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/RWD.Toolbox.Logging/RWD.Toolbox.Logging/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.ClassLibrary.IWeatherData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.ClassLibrary.IWeatherData.html",
+          "hash": "qQ3NYqFr8n9l68yrlmrQ1iy7DbbOQQu+N+GTJdxSqW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.ClassLibrary.WeatherData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.ClassLibrary.WeatherData.html",
+          "hash": "Bb+fERCpJmbWrmyRhHogIDbeNBLRKmlQdEu+lQqwB6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.ClassLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.ClassLibrary.html",
+          "hash": "y+ep0j2wG1vK0/VA0GEu11J2dhqHgkDyWOXNiU6HPhI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.Communication.CommunicationAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.Communication.CommunicationAgent.html",
+          "hash": "oMZLv2IyXeE9prnFzzVpigvErN8Qhe8lLlIA7IQw4IA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.Communication.ICommunicationAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.Communication.ICommunicationAgent.html",
+          "hash": "9F6QO0TkfbNVoi8KTyBV2fKKTqixU1SP57NJyrmFnt0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.Communication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.Communication.html",
+          "hash": "TWXSN7y9QZp8tCQ13yI/QvhX8ER9YXDrJE4rbajVgWM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Controllers.HomeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Controllers.HomeController.html",
+          "hash": "Kp/oqFt81pVjrw6wpLnksVZB0vEaAnraWwyHgHTj9lY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Controllers.html",
+          "hash": "i7/agmbGcyotWmObh+oQF5r1L8DYlu1KHrCRAZhrsSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.ErrorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.ErrorViewModel.html",
+          "hash": "/rG3i/NUtBbTPHSjgIrsjJ0t/vcQToKaAVlbw/fxhD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.ToDoItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.ToDoItem.html",
+          "hash": "iTl89PbvCtKTrzjBFmV9crwv8dugMumUDLiMrWfyL84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.WeatherForecast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.WeatherForecast.html",
+          "hash": "efNT0rFh2ex4zpa1+JFgtxBvMBCQ8xk+ENabY+g7AG0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.WeatherForecasts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.WeatherForecasts.html",
+          "hash": "Q4InPP1I4hCynf9mn3Nrc0W/EnVNpQWx+K0N0xHxfrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.MVC.Models.html",
+          "hash": "H8l/q2PuV0LbEdhLId3822DM4bGHMw+BrcAhQ7fDF2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.Models.WebAPI.WeatherForecast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.Models.WebAPI.WeatherForecast.html",
+          "hash": "A8AsZne+qFK5tMnRRhQAeNhqrGnLcOSt4neIjb7UqGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.Models.WebAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.Models.WebAPI.html",
+          "hash": "Q/Ssyui0oMppsPh1X1aRRfUR3IJwkCFolyigGLv00cs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Controllers.PageDataController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Controllers.PageDataController.html",
+          "hash": "RVdwjKVCLQDo5tT/4BlrDCNzhOQu/b3PU2gw9FOypyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Controllers.html",
+          "hash": "FIrj0Ft5ZHaLexQFZ84YHh/bQIvoziRhHgkAOxusb7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Models.ToDoItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Models.ToDoItem.html",
+          "hash": "wF2qJHFkUe6ce3WF6XtMShdk0/yIh4pgm15OAHKBWIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Demo.WebAPI.Models.html",
+          "hash": "W7IZ3rEkUD3DtBjsTvOKgJj9B45iCIApU2cMC6TT5wU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Attribute.TrackPerformanceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Attribute.TrackPerformanceAttribute.html",
+          "hash": "gN/G5LtM7+HSQRVlng2A5Eu81uTKljwsQIHURCtheVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Attribute.TrackUsageAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Attribute.TrackUsageAttribute.html",
+          "hash": "dgBn76UIbLCZCf5OlrbI/90ohGwos4vz4joX4uOPSAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Attribute.html",
+          "hash": "ZCEymUPun5GRLuN0I6p05VgxYr85ZDmRzdA5eCzgyIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Filters.TrackActionPerformanceFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Filters.TrackActionPerformanceFilter.html",
+          "hash": "UVhaTkfISJHZGl0A3e+f4UCWD4ITD9TKrR3VyOMtk44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Filters.TrackActionUsageFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Filters.TrackActionUsageFilter.html",
+          "hash": "wnR86jXsrakSlz/Chm1o90dNI22CKCKMtAdj/D8fk9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Filters.html",
+          "hash": "HHPDhvtQZglokcgb9LC2EsxGt4JdQOQGsE5zy/OflIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.LogMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.LogMessages.html",
+          "hash": "zRLHBGYuzmhzW6OdEuHHFwpnm7k+lrONUboMK2Ek85s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiError.html",
+          "hash": "dztcf5Tb2RqBUBidFVgUgkVUpDiTDii0divd+G02guY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiExceptionMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiExceptionMiddleware.html",
+          "hash": "KfPrP304HZdmYDwBCBciodGfNduiU9XZb5632/xKuJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiExceptionMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiExceptionMiddlewareExtensions.html",
+          "hash": "FhJ+uPbF9iUwvM6c8tbIKJz7EFvYi2/Rd9s2PZV/is8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiExceptionOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.ApiExceptionOptions.html",
+          "hash": "fJkcKFqzBOZvKkgCfKBDeiHkXpGOG8M1n7dQDmN1fV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.Middleware.html",
+          "hash": "veOuWbo8o5CDaUO00e3LDQwtH3BKlIiFAALVMqjAz3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Infrastructure.html",
+          "hash": "Z0dpmAT+pb8cOmEjj3aU65vxwt8MRmePSEGfKhVTsy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.Logger.html",
+          "hash": "V/aksK7v2hQYohAsMdg8CHdCMYVl2rO9x5MlueTrX9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RWD.Toolbox.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RWD.Toolbox.Logging.html",
+          "hash": "C7qli2faaj7a1tjFLjzPcLsimdmx0SbVPyfDYZHaIu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "B0Px7hDd9a2TehVk5B0UOj02FkqkaTqXH1xXyHDyu6E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "jpTXciBFoWBbNumbPhi3PFndFzn2KrNG1hvjSAiFiq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Oblzyj1EDjXKCFGv/WjvkwnqBiVvTuleE67DWF3Fg9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/RWDevs-header.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/RWDevs-header.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "kl9pSaXxdY/LtoY+7Yvedr5FYL5MFKQI1VmwAEfcyE8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "9OuP2hNrELMxroJNFrBy+09f/6qp4Wch0MLv/cFY0fE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 34,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
