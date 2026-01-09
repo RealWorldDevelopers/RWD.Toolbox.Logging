@@ -8,10 +8,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using RWD.Toolbox.Logging.Demo.ClassLibrary;
 using RWD.Toolbox.Logging.Infrastructure.Filters;
-using Microsoft.OpenApi.Models;
 using RWD.Toolbox.Logging.Infrastructure.Middleware;
 using Microsoft.AspNetCore.Http;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
+using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
