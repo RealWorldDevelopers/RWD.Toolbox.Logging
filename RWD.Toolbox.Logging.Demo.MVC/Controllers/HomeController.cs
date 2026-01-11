@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using RWD.Toolbox.Logging.Demo.Communication;
 using RWD.Toolbox.Logging.Demo.MVC.Models;
@@ -13,12 +14,15 @@ namespace RWD.Toolbox.Logging.Demo.MVC.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ICommunicationAgent _commAgent;
-
+        private readonly IConfiguration _configuration;
+        private readonly string _apiBaseUrl;
         
-        public HomeController(ICommunicationAgent commAgent, ILogger<HomeController> logger)
+        public HomeController(ICommunicationAgent commAgent, ILogger<HomeController> logger, IConfiguration configuration)
         {
             _logger = logger;
             _commAgent = commAgent;
+            _configuration = configuration;
+            _apiBaseUrl = _configuration.GetSection("ApiSettings").GetValue<string>("BaseUrl");
         }
 
         // Track Usage via Attribute
@@ -26,7 +30,7 @@ namespace RWD.Toolbox.Logging.Demo.MVC.Controllers
         public async Task<IActionResult> Index()
         {
             var model = new WeatherForecasts();
-            var f = await _commAgent.GetListFromApiAsync<WeatherForecast>("https://localhost:44310/api/data/weather", HttpContext, _logger);
+            var f = await _commAgent.GetListFromApiAsync<WeatherForecast>($"{_apiBaseUrl}/api/data/weather", HttpContext, _logger);
             model.Forecasts.AddRange(f);
 
             // example of manual log
@@ -41,14 +45,14 @@ namespace RWD.Toolbox.Logging.Demo.MVC.Controllers
         [TypeFilter(typeof(TrackPerformanceAttribute))]
         public async Task<IActionResult> PageTwo()
         {
-            var dataList = await _commAgent.GetListFromApiAsync<ToDoItem>("https://localhost:44310/api/data/todos", HttpContext, _logger);
+            var dataList = await _commAgent.GetListFromApiAsync<ToDoItem>($"{_apiBaseUrl}/api/data/todos", HttpContext, _logger);
             return View();
         }
 
         // Example of Error coming from Web API Call
         public async Task<IActionResult> PageTwoError()
         {
-            var dataList = await _commAgent.GetListFromApiAsync<ToDoItem>("https://localhost:44310/api/data/error", HttpContext, _logger);
+            var dataList = await _commAgent.GetListFromApiAsync<ToDoItem>($"{_apiBaseUrl}/api/data/error", HttpContext, _logger);
             return View("Index");
         }
 
